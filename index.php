@@ -83,8 +83,8 @@ foreach($files as $k => $v)
 
     echo "        <p>\n";
     echo "            Filename: {$v}<br>\n";
-	echo "        	  MD5: {$md5}<br>\n";
-	echo "        	  <a href=\"http://adf.ly/6047434/https://minecraft.lion328.com/thaifixes/files/{$v}\">ดาวน์โหลด</a> <a href=\"https://minecraft.lion328.com/thaifixes/files/{$v}\">(Direct)<a>\n";
+    echo "              MD5: {$md5}<br>\n";
+    echo "              <a href=\"http://adf.ly/6047434/https://minecraft.lion328.com/thaifixes/files/{$v}\">ดาวน์โหลด</a> <a href=\"https://minecraft.lion328.com/thaifixes/files/{$v}\">(Direct)<a>\n";
     echo "        </p>\n\n";
 }
 ?>
