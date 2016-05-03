@@ -116,13 +116,6 @@ $screenShotFile = 'screenshots/' . $screenShotFiles[time() / 5 % count($screenSh
             <section id="stable-release">
                 <h2>รุ่นเสถียร</h2>
                 <table id="releases-table">
-                    <thead class="gone">
-                        <tr>
-                            <th>ชื่อไฟล์</th>
-                            <th>MD5</th>
-                            <th>ดาวน์โหลด</th>
-                        </tr>
-                    </thead>
 <?php foreach ($files as $v): ?>
                     <tbody>
                         <tr>
