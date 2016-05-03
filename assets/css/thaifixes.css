@@ -1,0 +1,72 @@
+body {
+    font-family: 'Open Sans', 'Kanit', sans-serif;
+}
+
+.wrapper {
+    padding: 0 15rem;
+}
+
+.header {
+    text-align: center;
+}
+
+.screenshot {
+    width: 100%;
+}
+
+.releases-table {
+    width: 100%;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.gone {
+    display: none;
+}
+
+.stacktable {
+    width: 100%;
+}
+
+.st-head-row {
+    padding-top: 1rem;
+    text-align: left;
+}
+
+.st-head-row.st-head-row-main {
+    display: none;
+}
+
+.st-key {
+    display: none;
+}
+
+.stacktable.large-only {
+    display: table;
+}
+
+.stacktable.small-only {
+    display: none;
+}
+
+@media (max-width: 900px) {
+    .wrapper {
+        padding: 0 5rem;
+    }
+
+    .stacktable.large-only {
+        display: none;
+    }
+
+    .stacktable.small-only {
+        display: table;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1280px) {
+    .wrapper {
+        padding: 0 5rem;
+    }
+}
