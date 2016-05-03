@@ -47,7 +47,6 @@ usort($files, function($b, $a)
         $a_matches[$i] = intval($a_matches[$i]);
         $b_matches[$i] = intval($b_matches[$i]);
 
-
         if ($a_matches[$i] != $b_matches[$i])
         {
             return $a_matches[$i] - $b_matches[$i];
