@@ -1,3 +1,3 @@
 "use strict";
 
-$('#releases-table').stacktable();
+$('.releases-table').stacktable();

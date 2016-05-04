@@ -115,10 +115,10 @@ $screenShotFile = 'screenshots/' . $screenShotFiles[time() / 5 % count($screenSh
 
             <section id="stable-release">
                 <h2>รุ่นเสถียร</h2>
-                <table id="releases-table">
-<?php foreach ($files as $v): ?>
+                <table class="releases-table">
                     <tbody>
-                        <tr>
+<?php foreach ($files as $v): ?>
+                        <tr class="hover-tr">
                             <td><?php echo $v; ?></td>
                             <td class="releases-table-md5">MD5: <?php echo $filesMD5[$v]; ?></td>
                             <td>
@@ -126,8 +126,8 @@ $screenShotFile = 'screenshots/' . $screenShotFiles[time() / 5 % count($screenSh
                                 <a href="https://minecraft.lion328.com/thaifixes/files/<?php echo $v; ?>">(Direct)</a>
                             </td>
                         </tr>
-                    </tbody>
 <?php endforeach; ?>
+                    </tbody>
                 </table>
             </section>
 

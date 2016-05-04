@@ -2,6 +2,10 @@ body {
     font-family: 'Open Sans', 'Kanit', sans-serif;
 }
 
+tr:hover.hover-tr {
+    background-color: #CCC;
+}
+
 .wrapper {
     padding: 0 15rem;
 }
@@ -16,6 +20,8 @@ body {
 
 .releases-table {
     width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 .releases-table-md5 {
@@ -73,7 +79,11 @@ body {
     }
 }
 
-@media (max-width: 640px), (max-width: 900px) {
+@media (max-width: 900px) {
+    tr:hover.hover-tr {
+        background-color: transparent;
+    }
+
     .stacktable.large-only {
         display: none;
     }
