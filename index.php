@@ -120,7 +120,7 @@ $screenShotFile = 'screenshots/' . $screenShotFiles[time() / 5 % count($screenSh
                     <tbody>
                         <tr>
                             <td><?php echo $v; ?></td>
-                            <td>MD5: <?php echo $filesMD5[$v]; ?></td>
+                            <td class="releases-table-md5">MD5: <?php echo $filesMD5[$v]; ?></td>
                             <td>
                                 <a href="http://adf.ly/6047434/https://minecraft.lion328.com/thaifixes/files/<?php echo $v; ?>">ดาวน์โหลด</a>
                                 <a href="https://minecraft.lion328.com/thaifixes/files/<?php echo $v; ?>">(Direct)</a>

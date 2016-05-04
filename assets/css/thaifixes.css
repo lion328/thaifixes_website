@@ -18,6 +18,10 @@ body {
     width: 100%;
 }
 
+.releases-table-md5 {
+    display: inline;
+}
+
 .copyright {
     text-align: center;
 }
@@ -51,11 +55,25 @@ body {
     display: none;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 420px) {
+    .releases-table-md5 {
+        display: none;
+    }
+}
+
+@media (max-width: 640px) {
+    .wrapper {
+        padding: 0 1rem;
+    }
+}
+
+@media (min-width: 640px) and (max-width: 900px) {
     .wrapper {
         padding: 0 5rem;
     }
+}
 
+@media (max-width: 640px), (max-width: 900px) {
     .stacktable.large-only {
         display: none;
     }
