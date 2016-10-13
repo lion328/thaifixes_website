@@ -1,4 +1,9 @@
 body {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+body {
     font-family: 'Open Sans', 'Kanit', sans-serif;
 }
 
@@ -24,7 +29,7 @@ tr:hover.hover-tr {
     border-spacing: 0;
 }
 
-.releases-table-md5 {
+.releases-table-hash {
     display: inline;
 }
 
