@@ -156,7 +156,7 @@ $screenShotFile = 'screenshots/' . $screenShotFiles[time() / 5 % count($screenSh
         </main>
 
         <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
-        <script src="https://files-stackablejs.netdna-ssl.com/stacktable.min.js"></script>
+        <script src="https://raw.githubusercontent.com/johnpolacek/stacktable.js/master/stacktable.js"></script>
         <script src="assets/js/thaifixes.js"></script>
     </body>
 </html>
